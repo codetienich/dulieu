@@ -49,4 +49,3 @@ function() {
             e && createButtonFromCookies(e)
         }
     }();
-//# sourceMappingURL=myapp.min.js.map
