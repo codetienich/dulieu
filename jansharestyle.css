@@ -72,14 +72,13 @@
   .scroller-type .mauanh img{
     width: 130px;
     height: 100px;
-    padding: 5px;
     object-fit: contain;
-    background-color: #6C757D;
+    background-color: #ffffff;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
   }
   .scroller-type .mauanh.active img{
-    box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 50%);
+    box-shadow: 0 0 0 0.2rem rgb(255 0 0);
     border-color: rgba(38,143,255,0.5);
   }
 
