@@ -6,14 +6,17 @@ var w      = parseInt(el('chieurongcrop').value);
   var x      = parseInt(el('vitri-ngang').value);
   var y      = parseInt(el('vitri-doc').value);
   var r      = parseInt(el('doxoay').value);
+  var colorbg = parseInt(el('colorbg').value);
   var ratio  = w/h;
 
   function updateData(){
+	  
     w      = parseInt(el('chieurongcrop').value);
     h      = parseInt(el('chieucaocrop').value);
     x      = parseInt(el('vitri-ngang').value);
     y      = parseInt(el('vitri-doc').value);
     r      = parseInt(el('doxoay').value);
+    colorbg = parseInt(el('colorbg').value);
     ratio  = w/h;
   }
   // DOM LOADED
