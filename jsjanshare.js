@@ -139,6 +139,7 @@ var w      = parseInt(el('chieurongcrop').value);
           el('doxoay').value       = this.getAttribute('doxoay');
           el('chieurongcrop').value       = this.getAttribute('chieurongcrop');
           el('chieucaocrop').value       = this.getAttribute('chieucaocrop');
+	  el('colorbg').value       = this.getAttribute('colorbg');  
           el('canvas').width       = this.getAttribute('chieurong_anhxuat');
           el('canvas').height      = this.getAttribute('chieudai_anhxuat');
       });
