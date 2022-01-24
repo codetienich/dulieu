@@ -95,4 +95,134 @@
     }
   }
 
- 
+     @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+.row {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 30px;
+
+  position: relative;
+  z-index: 1;
+
+
+}
+.row:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: -5000px;
+  height: 100%;
+  width: 15000px;
+  z-index: -1;
+  background: inherit;
+}
+.row:first-child {
+  padding: 40px 30px;
+}
+.row:nth-child(2), .row:nth-child(8), .row:nth-child(10) {
+  background: #134A46;
+}
+.row:nth-child(3), .row:nth-child(7) {
+  background: #377D6A;
+}
+.row:nth-child(4), .row:nth-child(6) {
+  background: #7AB893;
+}
+.row:nth-child(5) {
+  background: #B2E3AF;
+}
+.row span {
+  position: relative;
+  display: inline-block;
+  margin: 25px 20px;
+  
+}
+
+.nhapten {
+  display: inline-block;
+  width: 415px;
+  height: 30px;
+  padding: 10px 0 10px 15px;
+  font-family: "Lato", sans-serif;
+
+color: #fff;
+  font-weight: 400;
+      font-size: 1rem;
+  color: #000000;
+  background: #fbf0ff;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  text-indent: 86px;
+  transition: all .3s ease-in-out;
+}
+.nhapten::-webkit-input-placeholder {
+  color: #efefef;
+  text-indent: 20px;
+
+  font-weight: 600px;
+}
+.nhapten + label {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  height: 30px;
+font-family: "Lato", sans-serif;
+
+background: #ff0000;
+color: #fff;
+vertical-align: middle;
+  transition: all .4s ease-in-out;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  transform-origin: left bottom;
+  z-index: 25;
+}
+.nhapten + label:before, .nhapten + label:after {
+  content: "✌";
+  position: absolute;
+  top: 10;
+  right: 0;
+  bottom: 0;
+  left: 50px;
+
+  transform-origin: left bottom;
+  transition: all .4s ease-in-out;
+  pointer-events: none;
+  z-index: -1;
+}
+
+
+span:nth-child(2) .nhapten {
+  text-indent: 85px;
+}
+
+span:nth-child(2) .nhapten:focus,
+span:nth-child(2) .nhapten:active {
+  text-indent: 0;
+}
+
+.nhapten:focus,
+.nhapten:active {
+  color: #eb1369;
+  text-indent: 20px;
+  background: #f0feff;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.nhapten:focus::-webkit-input-placeholder,
+.nhapten:active::-webkit-input-placeholder {
+  color: #aaa;
+}
+.nhapten:focus + label,
+.nhapten:active + label {
+  transform: rotate(-66deg);
+  border-radius: 3px;
+}
+.nhapten:focus + label:before,
+.nhapten:active + label:before {
+  transform: rotate(10deg);
+}
