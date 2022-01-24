@@ -96,7 +96,7 @@
   }
 
      @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
-.row {
+.nhaptentab {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 30px;
@@ -106,7 +106,7 @@
 
 
 }
-.row:before {
+.nhaptentab:before {
   position: absolute;
   content: "";
   display: block;
@@ -117,22 +117,22 @@
   z-index: -1;
   background: inherit;
 }
-.row:first-child {
+.nhaptentab:first-child {
   padding: 40px 30px;
 }
-.row:nth-child(2), .row:nth-child(8), .row:nth-child(10) {
+.nhaptentab:nth-child(2), .nhaptentab:nth-child(8), .nhaptentab:nth-child(10) {
   background: #134A46;
 }
-.row:nth-child(3), .row:nth-child(7) {
+.nhaptentab:nth-child(3), .nhaptentab:nth-child(7) {
   background: #377D6A;
 }
-.row:nth-child(4), .row:nth-child(6) {
+.nhaptentab:nth-child(4), .nhaptentab:nth-child(6) {
   background: #7AB893;
 }
-.row:nth-child(5) {
+.nhaptentab:nth-child(5) {
   background: #B2E3AF;
 }
-.row span {
+.nhaptentab span {
   position: relative;
   display: inline-block;
   margin: 25px 20px;
