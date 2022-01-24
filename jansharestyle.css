@@ -141,8 +141,8 @@
 
 .nhapten {
   display: inline-block;
-  width: 100%;
- 
+  width: 415px;
+  height: 60px;
   padding: 10px 0 10px 15px;
   font-family: "Lato", sans-serif;
 
@@ -169,7 +169,7 @@ color: #fff;
   top: 0;
   left: 0;
   padding: 10px 15px;
-
+  height: 60px;
 font-family: "Lato", sans-serif;
 
 background: #ff0000;
