@@ -6,7 +6,7 @@ var w      = parseInt(el('chieurongcrop').value);
   var x      = parseInt(el('vitri-ngang').value);
   var y      = parseInt(el('vitri-doc').value);
   var r      = parseInt(el('doxoay').value);
-  var colorbg = parseInt(el('colorbg').value);
+
   var ratio  = w/h;
 
   function updateData(){
@@ -16,7 +16,7 @@ var w      = parseInt(el('chieurongcrop').value);
     x      = parseInt(el('vitri-ngang').value);
     y      = parseInt(el('vitri-doc').value);
     r      = parseInt(el('doxoay').value);
-    colorbg = parseInt(el('colorbg').value);
+
     ratio  = w/h;
   }
   // DOM LOADED
@@ -24,7 +24,7 @@ var w      = parseInt(el('chieurongcrop').value);
     var image = el('image');
     var input = el('inputIMG');
     var imgout = el('imgout');
- 
+     var baseurl = el('duong_dan').value;
     var $modal = $('#imgModal');
     var cropper;
 
@@ -133,15 +133,16 @@ var w      = parseInt(el('chieurongcrop').value);
     var style = document.getElementsByName('style');
     for (var i = 0, length = style.length; i < length; i++) {
       style[i].addEventListener('click',function(){
-          el('data-overlay').value = this.value;
+	  el('bgcolor').value       = this.getAttribute('bgcolor');
           el('vitri-ngang').value       = this.getAttribute('vitri-ngang');
           el('vitri-doc').value       = this.getAttribute('vitri-doc');
           el('doxoay').value       = this.getAttribute('doxoay');
           el('chieurongcrop').value       = this.getAttribute('chieurongcrop');
           el('chieucaocrop').value       = this.getAttribute('chieucaocrop');
+		  el('chieuronganhxuat').value       = this.getAttribute('chieuronganhxuat');
+          el('chieucaoanhxuat').value       = this.getAttribute('chieucaoanhxuat');
 	  el('colorbg').value       = this.getAttribute('colorbg');  
-          el('canvas').width       = this.getAttribute('chieurong_anhxuat');
-          el('canvas').height      = this.getAttribute('chieudai_anhxuat');
+
       });
     }
 
