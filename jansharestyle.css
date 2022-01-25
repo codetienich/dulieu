@@ -1,34 +1,28 @@
  #jansharecanvas {position: absolute; width: 0px;height: 0px;} .disp-none{display:none;}#anhcrop{ height: 38px;border-radius: 4px;}#upload-aphoto{background: #12a37f;border-color:#12a37f;margin: 17px 12px; }
 .button2 {left: 50px;background-color: #a7ffd7;color: black; border: 2px solid #f44336;width: 150px;height: 40px;text-align: center;font-size: 22px;margin: 17px 24px;}.button2:hover {background-color: #f44336;color: white;}
 .button3 {background-color: yellow;color: black; border: 2px solid #f44336;width: 150px;height: 40px;text-align: center;font-size: 22px;}.button3:hover { background-color: #f44336;color: white;}
-
 @font-face {
   font-family: Fontnv;
   src: url(https://codetienich.github.io/dulieu/0051-LNTH-MarkerBrush.ttf);
 }
-
  
  .img-container #image{
     display: block;
     max-width: 100%;
     max-height: 280px;
   }
-
-
   #imgout img{
     display: block;
     max-width: 100%;
     max-height: 320px;
     object-fit: contain;
   }
-
   .scroller-type{
     overflow: auto;
     flex-wrap: nowrap;
     display: flex;
     padding-left: 5px;
     max-height: 180px;
-   width: 100%;
     margin-bottom: 10px;
   }
   .scroller-type *{
@@ -48,7 +42,6 @@
     -ms-flex: none;
     flex: none;
   }
-
   .scroller-type .mauanh .wrap-img{
     display: block;
     position: relative;
@@ -66,10 +59,9 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-    z-index: 100px;
+    z-index: 100;
     cursor: zoom-in;
   }
-
   .scroller-type .mauanh img{
     width: 130px;
     height: 100px;
@@ -82,11 +74,9 @@
     box-shadow: 0 0 0 0.2rem rgb(255 0 0);
     border-color: rgba(38,143,255,0.5);
   }
-
   .scroller-type label{
     font-size: 11px;
   }
-
   @media only screen and (max-width: 576px){
     .scroller-type {
         max-height: 360px;
@@ -95,16 +85,12 @@
         align-content: flex-start;
     }
   }
-
      @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
 .nhaptentab {
   max-width: 800px;
   padding: 1px 40px
-
   position: relative;
-  z-index: 1px;
-
-
+  z-index: 1;
 }
 .nhaptentab:before {
   position: absolute;
@@ -114,23 +100,23 @@
   left: -5000px;
   height: 100%;
   width: 15000px;
-  z-index: -1px;
+  z-index: -1;
   background: inherit;
 }
 .nhaptentab:first-child {
   padding: 40px 30px;
 }
 .nhaptentab:nth-child(2), .nhaptentab:nth-child(8), .nhaptentab:nth-child(10) {
-
+  background: #134A46;
 }
 .nhaptentab:nth-child(3), .nhaptentab:nth-child(7) {
- 
+  background: #377D6A;
 }
 .nhaptentab:nth-child(4), .nhaptentab:nth-child(6) {
-
+  background: #7AB893;
 }
 .nhaptentab:nth-child(5) {
-
+  background: #B2E3AF;
 }
 .nhaptentab span {
   position: relative;
@@ -138,14 +124,12 @@
   margin: 25px 20px;
   
 }
-
 .nhapten {
   display: inline-block;
   width: 415px;
   height: 50px;
   padding: 10px 0 10px 15px;
   font-family: "Lato", sans-serif;
-
 color: #fff;
   font-weight: 400;
       font-size: 1rem;
@@ -160,7 +144,6 @@ color: #fff;
 .nhapten::-webkit-input-placeholder {
   color: #efefef;
   text-indent: 20px;
-
   font-weight: 600px;
 }
 .nhapten + label {
@@ -171,7 +154,6 @@ color: #fff;
   padding: 10px 15px;
   height: 50px;
 font-family: "Lato", sans-serif;
-
 background: #ff0000;
 color: #fff;
 vertical-align: middle;
@@ -179,7 +161,7 @@ vertical-align: middle;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   transform-origin: left bottom;
-  z-index: 25px;
+  z-index: 25;
 }
 .nhapten + label:before, .nhapten + label:after {
   content: "";
@@ -188,23 +170,18 @@ vertical-align: middle;
   right: 0;
   bottom: 0;
   left: 50px;
-
   transform-origin: left bottom;
   transition: all .4s ease-in-out;
   pointer-events: none;
-  z-index: -1px;
+  z-index: -1;
 }
-
-
 span:nth-child(2) .nhapten {
   text-indent: 85px;
 }
-
 span:nth-child(2) .nhapten:focus,
 span:nth-child(2) .nhapten:active {
   text-indent: 0;
 }
-
 .nhapten:focus,
 .nhapten:active {
   color: #eb1369;
@@ -262,7 +239,7 @@ font-family: "Lato", sans-serif;
   position: absolute;
   right: 0;
   left: 0;
-  z-index: -1px;
+  z-index: -1;
   transition: all .3s ease-in-out;
 }
 .cssmausac + label:before {
@@ -330,7 +307,7 @@ span:nth-child(3) .cssmausac:active {
   font-size: 2rem;
   border: 0;
   border-radius: 3px;
- 
+
 }
 
 
@@ -344,4 +321,3 @@ input[type=color] {
 .nhapten:focus + label:before,
 .nhapten:active + label:before {
   transform: rotate(10deg);
-}
