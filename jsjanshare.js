@@ -241,4 +241,4 @@ function() {
         }
     }();
   new Vue({
-  el: '#doimausac',})
+  el: '#doimausac',});
