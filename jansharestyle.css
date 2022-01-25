@@ -120,16 +120,16 @@
   padding: 40px 30px;
 }
 .nhaptentab:nth-child(2), .nhaptentab:nth-child(8), .nhaptentab:nth-child(10) {
-  background: #134A46;
+
 }
 .nhaptentab:nth-child(3), .nhaptentab:nth-child(7) {
-  background: #377D6A;
+ 
 }
 .nhaptentab:nth-child(4), .nhaptentab:nth-child(6) {
-  background: #7AB893;
+
 }
 .nhaptentab:nth-child(5) {
-  background: #B2E3AF;
+
 }
 .nhaptentab span {
   position: relative;
