@@ -240,3 +240,5 @@ function() {
             e && createButtonFromCookies(e)
         }
     }();
+  new Vue({
+  el: '#doimausac',})
