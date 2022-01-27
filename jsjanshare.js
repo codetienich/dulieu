@@ -133,7 +133,8 @@ var w      = parseInt(el('chieurongcrop').value);
     var style = document.getElementsByName('style');
     for (var i = 0, length = style.length; i < length; i++) {
       style[i].addEventListener('click',function(){
-	  el('bgcolor').value       = this.getAttribute('bgcolor');
+	      el('maunen').value       = this.getAttribute('maunen');
+	      el('bgcolor').value       = this.getAttribute('bgcolor');
           el('vitri-ngang').value       = this.getAttribute('vitri-ngang');
           el('vitri-doc').value       = this.getAttribute('vitri-doc');
           el('doxoay').value       = this.getAttribute('doxoay');
@@ -240,5 +241,3 @@ function() {
             e && createButtonFromCookies(e)
         }
     }();
-  new Vue({
-  el: '#doimausac',});
