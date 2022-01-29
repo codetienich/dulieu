@@ -134,7 +134,7 @@ var w      = parseInt(el('chieurongcrop').value);
     for (var i = 0, length = style.length; i < length; i++) {
       style[i].addEventListener('click',function(){
 	      el('maunen').value       = this.getAttribute('maunen');
-	      el('bgColor').value       = this.getAttribute('bgColor');
+	      el('bgcolor').value       = this.getAttribute('bgcolor');
           el('vitri-ngang').value       = this.getAttribute('vitri-ngang');
           el('vitri-doc').value       = this.getAttribute('vitri-doc');
           el('doxoay').value       = this.getAttribute('doxoay');
