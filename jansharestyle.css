@@ -243,9 +243,7 @@ span:nth-child(2) .nhapten:active {
 	display:inline-block;
 	vertical-align:middle;
 	border-radius: 15px 3px;
-	box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 6px 0px;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 6px 0px;
-	-moz-box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 6px 0px;
+
 }
 .JanSelector .element img
 {
