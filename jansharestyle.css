@@ -7,6 +7,10 @@
   src: url(https://codetienich.github.io/dulieu/0051-LNTH-MarkerBrush.ttf);
 }
 
+@font-face {
+  font-family: Fontnv2;
+  src: url(https://codetienich.github.io/dulieu/LNTH-PaulMaul.ttf);
+}
  
  .img-container #image{
     display: block;
