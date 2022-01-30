@@ -214,7 +214,7 @@ span:nth-child(2) .nhapten:active {
 .nhapten:focus,
 .nhapten:active {
   color: #eb1369;
-  text-indent: 20px;
+  text-indent: 26px;
   background: #f0feff;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
