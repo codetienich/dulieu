@@ -233,7 +233,7 @@ span:nth-child(2) .nhapten:active {
 }
 .nhapten:focus::-webkit-input-placeholder,
 .nhapten:active::-webkit-input-placeholder {
-  color: #5f677a;
+  color: #aaa;
 }
 .nhapten:focus + label,
 .nhapten:active + label {
