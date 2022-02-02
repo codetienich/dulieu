@@ -174,7 +174,7 @@ $.fn.boxShadow = function(color, spread, blur, opacity, type, posX, posY){
 		cssparams += 'rgba('+rgb[0]+', '+rgb[1]+', '+rgb[2]+', '+opacity+')';
 	}
 	this.css({
-		'box-shadow': cssparams,
+		
 		'-moz-box-shadow': cssparams,
 		'-webkit-box-shadow': cssparams
 	});
@@ -266,7 +266,7 @@ $.fn.boxShadows = function(params){//color, spread, blur, opacity, type, posX, p
 		}
 	}
 	this.css({
-		'box-shadow': cssparams,
+		
 		'-moz-box-shadow': cssparams,
 		'-webkit-box-shadow': cssparams
 	});
