@@ -176,7 +176,7 @@ color: #fff;
   transition: all .3s ease-in-out;
 }
 .nhapten::-webkit-input-placeholder {
-  color: #efefef;
+  color: #545073;
   text-indent: 20px;
 
   font-weight: 600px;
@@ -233,7 +233,7 @@ span:nth-child(2) .nhapten:active {
 }
 .nhapten:focus::-webkit-input-placeholder,
 .nhapten:active::-webkit-input-placeholder {
-  color: #aaa;
+  color: #5f677a;
 }
 .nhapten:focus + label,
 .nhapten:active + label {
