@@ -9,7 +9,7 @@ var chonkieu = [
     
 {
 	maunen:"https://lh3.googleusercontent.com/-Ydv2tQdBduA/Yerbh0ZcHQI/AAAAAAAAAxw/g8XOAW8Gh0oXZ0d_k_-s0grLiLoEKmUMACNcBGAsYHQ/s0/jack2.png",
- 	bgcolor:"#493669",
+ 	bgcolor:"#221D1D",
 	chieuronganhxuat:"900",
 	chieucaoanhxuat:"900"
 		
