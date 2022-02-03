@@ -173,11 +173,7 @@ $.fn.boxShadow = function(color, spread, blur, opacity, type, posX, posY){
 		var rgb = hex2rgb(color);
 		cssparams += 'rgba('+rgb[0]+', '+rgb[1]+', '+rgb[2]+', '+opacity+')';
 	}
-	this.css({
-		'box-shadow': cssparams,
-		'-moz-box-shadow': cssparams,
-		'-webkit-box-shadow': cssparams
-	});
+
 	return this;
 };
 
@@ -265,11 +261,7 @@ $.fn.boxShadows = function(params){//color, spread, blur, opacity, type, posX, p
 			cssparams += 'rgba('+rgb[0]+', '+rgb[1]+', '+rgb[2]+', '+opacity+')';
 		}
 	}
-	this.css({
-		'box-shadow': cssparams,
-		'-moz-box-shadow': cssparams,
-		'-webkit-box-shadow': cssparams
-	});
+
 	return this;
 };
 
@@ -499,4 +491,3 @@ function ySlider(t, a)
 	});
 	return this;
 }
-
