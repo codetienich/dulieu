@@ -101,6 +101,7 @@ var w      = parseInt(el('chieurongcrop').value);
           var url = URL.createObjectURL(blob);
           el('anhcrop').src = url;
 		  el('maunen').value = url;
+	       el('maunencrop').value = url;
       });
 
 
