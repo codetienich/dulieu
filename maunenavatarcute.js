@@ -22,8 +22,11 @@ var chonkieu = [
 },
 {
 	maunen:"https://lh3.googleusercontent.com/-XHPwa_uTTag/Yf09WrWlIwI/AAAAAAAAA3U/T9bFqXLKY6I0equrfm6Lyv9hiSMPNKl3QCNcBGAsYHQ/s0/cute7.png",
-
-		
-	}	
+},
+{
+	maunen:"https://lh3.googleusercontent.com/-NlNDGMOZpmE/Yf4W-4xpIGI/AAAAAAAAA4I/bI9CGegmBQgrfZg71PRMtr6DynsTQI85wCNcBGAsYHQ/s0/cute8.png",
+},
+	
+	
     
 ];
