@@ -55,6 +55,10 @@
   font-family: fontnamsinh1;
   src: url(https://codetienich.github.io/dulieu/La%20Liga%20Font.ttf);
 }
+@font-face {
+  font-family: fontjan1;
+  src: url(https://codetienich.github.io/dulieu/0230-LNTH-Promenadenmischung.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
