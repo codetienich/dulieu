@@ -131,23 +131,8 @@ var w      = parseInt(el('chieurongcrop').value);
     });
 
     // change imgout style
-    var style = document.getElementsByName('style');
-    for (var i = 0, length = style.length; i < length; i++) {
-      style[i].addEventListener('click',function(){
-	      el('maunen').value       = this.getAttribute('maunen');
-	       el('maunen2').value       = this.getAttribute('maunen2');
-	      el('bgcolor').value       = this.getAttribute('bgcolor');
-          el('vitri-ngang').value       = this.getAttribute('vitri-ngang');
-          el('vitri-doc').value       = this.getAttribute('vitri-doc');
-          el('doxoay').value       = this.getAttribute('doxoay');
-          el('chieurongcrop').value       = this.getAttribute('chieurongcrop');
-          el('chieucaocrop').value       = this.getAttribute('chieucaocrop');
-	el('chieuronganhxuat').value       = this.getAttribute('chieuronganhxuat');
-          el('chieucaoanhxuat').value       = this.getAttribute('chieucaoanhxuat');
-	  el('colorbg').value       = this.getAttribute('colorbg');  
+   
 
-      });
-    }
 
 
     // dragable scroller-type
