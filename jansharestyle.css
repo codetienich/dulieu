@@ -80,6 +80,9 @@
   font-family: fontjan1;
   src: url(https://codetienich.github.io/dulieu/0230-LNTH-Promenadenmischung.ttf);
 }
+  font-family: fontjan2;
+  src: url(https://codetienich.github.io/dulieu/0110-LNTH-Marker-Scratch.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
