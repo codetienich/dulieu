@@ -55,7 +55,28 @@
   font-family: fontnamsinh1;
   src: url(https://codetienich.github.io/dulieu/La%20Liga%20Font.ttf);
 }
+
 @font-face {
+  font-family: fontnamsinh2;
+  src: url(https://codetienich.github.io/dulieu/AlphaSports.ttf);
+}
+@font-face {
+  font-family: fontnamsinh3;
+  src: url(https://codetienich.github.io/dulieu/BrightnessInverted.ttf);
+}
+@font-face {
+  font-family: fontnamsinh4;
+  src: url(https://codetienich.github.io/dulieu/FinishedSympathy.otf);
+}
+@font-face {
+  font-family: fontnamsinh5;
+  src: url(https://codetienich.github.io/dulieu/gunmetl.ttf);
+}
+@font-face {
+  font-family: fontnamsinh6;
+  src: url(https://codetienich.github.io/dulieu/PaintDrops.ttf);
+}
+
   font-family: fontjan1;
   src: url(https://codetienich.github.io/dulieu/0230-LNTH-Promenadenmischung.ttf);
 }
