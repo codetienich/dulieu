@@ -459,3 +459,59 @@ input.jancolor
 	color:#000000;
 	border:1px solid #555555;
 }
+/*buttoncolor*/
+.jbtn {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1.2px;
+  padding: 12px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+.jbtn:focus {
+  outline: none;
+}
+
+.jbtn--primary {
+  color: #0080ff;
+}
+
+.jbtn--border {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.jbtn--animated {
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+.jbtn--animated.jbtn--border.jbtn--primary {
+  border: 1px solid lightslategray;
+}
+.jbtn--animated:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0b7ad9;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  z-index: -1;
+}
+.jbtn--animated:hover {
+  color: white;
+}
+.jbtn--animated:hover:before {
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
+}
