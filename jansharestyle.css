@@ -480,7 +480,7 @@ input.jancolor
 .jbtn--border {
   border-width: 1px;
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 25px;
   box-sizing: border-box;
 }
 .jbtn--primary {
