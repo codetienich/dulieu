@@ -551,4 +551,17 @@ input.jancolor
 .center-block {
 display:inline-block;
 }
+.jan3 select {
+background-color: #49aabb;
+color: white;
+font-weight: bold;
 
+padding-top: 5px;
+
+padding-bottom: 5px;
+padding-left: 10px;
+cursor: pointer;
+width: 140px;
+height: 40px;  
+font-size: 16px;
+}
