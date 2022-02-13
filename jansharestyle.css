@@ -550,5 +550,5 @@ input.jancolor
 }
 
 .center-block {
- display: flex;
+display:inline-block;
 }
