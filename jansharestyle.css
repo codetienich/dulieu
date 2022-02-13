@@ -519,5 +519,5 @@ input.jancolor
 }
 .center-block {
   margin: auto;
-  display: block;
+  display: flex;
 }
