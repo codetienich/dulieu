@@ -517,3 +517,7 @@ input.jancolor
   transform: scaleX(1);
   transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
 }
+.center-block {
+  margin: auto;
+  display: block;
+}
