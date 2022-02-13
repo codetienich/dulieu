@@ -241,7 +241,7 @@ color: #fff;
 }
 .nhapten::-webkit-input-placeholder {
   color: #9c9ab3;
-  text-indent: 90px;
+  text-indent: 100px;
 
   font-weight: 600px;
 }
