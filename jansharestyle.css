@@ -518,6 +518,5 @@ input.jancolor
   transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
 }
 .center-block {
-  margin: auto;
-  display: flex;
+ display: flex;
 }
