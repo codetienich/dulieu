@@ -88,6 +88,22 @@
   font-family: fontjan2;
   src: url(https://codetienich.github.io/dulieu/0110-LNTH-Marker-Scratch.ttf);
 }
+@font-face {
+  font-family: fontjan3;
+  src: url(https://codetienich.github.io/dulieu/0255-LNTH-Paraglide.ttf.ttf);
+}
+@font-face {
+  font-family: fontjan4;
+  src: url(https://codetienich.github.io/dulieu/0259-LNTH-angrybirds-regular.ttf.ttf);
+}
+@font-face {
+  font-family: fontjan5;
+  src: url(https://codetienich.github.io/dulieu/0309-LNTH-Hold-On.ttf.ttf);
+}
+@font-face {
+  font-family: fontjan6;
+  src: url(https://codetienich.github.io/dulieu/0306-LNTH-Hello-Jones-Free-Trial.ttf.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
