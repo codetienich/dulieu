@@ -38,11 +38,15 @@
   font-family: Fontnv2;
   src: url(https://codetienich.github.io/dulieu/LNTH-PaulMaul.ttf);
 }
+
 @font-face {
   font-family: Fontnv3;
   src: url(https://codetienich.github.io/dulieu/0155-LNTH-picto.ttf);
 }
- 
+ @font-face {
+  font-family: Fontnv4;
+  src: url(https://codetienich.github.io/dulieu/SVN-Arial%20Bold.ttf);
+}
 @font-face {
   font-family: fontchuky1;
   src: url(https://codetienich.github.io/dulieu/Autografia_nvh2.ttf);
