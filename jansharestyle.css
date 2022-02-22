@@ -108,6 +108,14 @@
   font-family: fontjan6;
   src: url(https://codetienich.github.io/dulieu/0306-LNTH-Hello-Jones-Free-Trial.ttf);
 }
+@font-face {
+  font-family: fontjan7;
+  src: url(https://codetienich.github.io/dulieu/0011-LNTH-Alberto-Regular.ttf);
+}
+@font-face {
+  font-family: fontjan8;
+  src: url(https://codetienich.github.io/dulieu/0283-LNTHFC-Balinos.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
