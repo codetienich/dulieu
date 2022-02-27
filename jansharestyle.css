@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 @font-face {
+  font-family: fontlogo;
+  src: url(https://codetienich.github.io/dulieu/LinotypeMinos_janshare2.ttf);
+}
+@font-face {
   font-family: Fontnv;
   src: url(https://codetienich.github.io/dulieu/0051-LNTH-MarkerBrush.ttf);
 }
