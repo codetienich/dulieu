@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 @font-face {
+  font-family: fontquotes;
+  src: url(https://codetienich.github.io/dulieu/0056-LNTH-PajaritoFont-Regular.ttf);
+}
+@font-face {
   font-family: fontlogo;
   src: url(https://codetienich.github.io/dulieu/LinotypeMinos_janshare2.ttf);
 }
