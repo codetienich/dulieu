@@ -124,6 +124,10 @@
   font-family: fontjan8;
   src: url(https://codetienich.github.io/dulieu/0283-LNTHFC-Balinos.ttf);
 }
+@font-face {
+  font-family: fontjan9;
+  src: url(https://codetienich.github.io/dulieu/SVN-Apple.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
