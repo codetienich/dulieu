@@ -10,7 +10,6 @@
 
     // show/hide modal
     $modal.on('shown.bs.modal', function () {
-      // tính lại các thông số
       updateData();
       console.log(w);
 
@@ -27,7 +26,6 @@
     input.addEventListener('change',function(){
       document.getElementById('chonanh').textContent = 'Chọn ảnh khác';
 
-      // cập nhật lại data
       updateData();
       console.log(w+'-'+h);
 
@@ -80,6 +78,7 @@
       croppedCanvas.toBlob(function(blob) {
           var url = URL.createObjectURL(blob);
           el('anhcrop').src = url;
+	   el('anhcrop2').src = url;
 		  el('maunen').value = url;
 	       el('maunencrop').value = url;
       });
