@@ -128,6 +128,11 @@
   font-family: fontjan9;
   src: url(https://codetienich.github.io/dulieu/SVN-Apple.ttf);
 }
+@font-face {
+  font-family: fontjan9;
+  src: url(https://codetienich.github.io/font/0011-LNTH-Alberto-Regular.ttf);
+}
+
  .img-container #image{
     display: block;
     max-width: 100%;
