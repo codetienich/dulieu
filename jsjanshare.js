@@ -79,8 +79,8 @@
           var url = URL.createObjectURL(blob);
           el('anhcrop').src = url;
 	  el('maunen').value = url;
-	  el('anhcrop2').src = url;
 	  el('maunencrop').value = url;
+	  el('anhcrop2').src = url; 
       });
 
 
