@@ -132,6 +132,10 @@
   font-family: fontjan10;
   src: url(https://codetienich.github.io/font/0011-LNTH-Alberto-Regular.ttf);
 }
+@font-face {
+  font-family: fontjan11;
+  src: url(https://codetienich.github.io/font/0223-LNTH-Hoa-Nho-LNTH.ttf);
+}
 
  .img-container #image{
     display: block;
