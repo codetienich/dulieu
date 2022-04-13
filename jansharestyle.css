@@ -136,7 +136,10 @@
   font-family: fontjan11;
   src: url(https://codetienich.github.io/font/0223-LNTH-Hoa-Nho-LNTH.ttf);
 }
-
+@font-face {
+  font-family: fontjan12;
+  src: url(https://codetienich.github.io/font/0032-LNTH-BarbershopInThailand.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
