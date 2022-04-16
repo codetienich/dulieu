@@ -620,3 +620,110 @@ width: 140px;
 height: 40px;  
 font-size: 16px;
 }
+
+:root {
+  --input-color: #99A3BA;
+  --input-border: #CDD9ED;
+  --input-background: #fff;
+  --input-placeholder: #CBD1DC;
+  --input-border-focus: #275EFE;
+  --group-color: var(--input-color);
+  --group-border: var(--input-border);
+  --group-background: #EEF4FF;
+  --group-color-focus: #fff;
+  --group-border-focus: #ffffff;
+  --group-background-focus: #678EFE;
+}
+
+.janform-field {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: var(--input-color);
+  border: 1px solid var(--input-border);
+  background: var(--input-background);
+  transition: border 0.3s ease;
+}
+.janform-field::-moz-placeholder {
+  color: var(--input-placeholder);
+}
+.janform-field:-ms-input-placeholder {
+  color: var(--input-placeholder);
+}
+.janform-field::placeholder {
+  color: var(--input-placeholder);
+}
+.janform-field:focus {
+  outline: none;
+  border-color: var(--input-border-focus);
+}
+
+.janform-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.janform-group > span,
+.janform-group .janform-field {
+  white-space: nowrap;
+  display: block;
+}
+.janform-group > span:not(:first-child):not(:last-child),
+.janform-group .janform-field:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.janform-group > span:first-child,
+.janform-group .janform-field:first-child {
+  border-radius: 6px 0 0 6px;
+}
+.janform-group > span:last-child,
+.janform-group .janform-field:last-child {
+  border-radius: 0 6px 6px 0;
+}
+.janform-group > span:not(:first-child),
+.janform-group .janform-field:not(:first-child) {
+  margin-left: -1px;
+}
+.janform-group .janform-field {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.janform-group > span {
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+  background: #00a8ab;
+  border: 1px solid var(--group-border);
+  transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+.janform-group:focus-within > span {
+  color: #ffffff;
+  background: #ff005c;
+  border-color: #c8126e;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+body .janform-group {
+  max-width: 360px;
+}
+body .janform-group:not(:last-child) {
+  margin-bottom: 32px;
+}
