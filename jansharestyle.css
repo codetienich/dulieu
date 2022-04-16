@@ -140,6 +140,10 @@
   font-family: fontjan12;
   src: url(https://codetienich.github.io/dulieu/0032-LNTH-BarbershopInThailand.ttf);
 }
+@font-face {
+  font-family: fontjan14;
+  src: url(https://codetienich.github.io/dulieu/0132-LNTH-Doodles.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
