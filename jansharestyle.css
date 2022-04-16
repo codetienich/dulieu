@@ -645,7 +645,7 @@ font-size: 16px;
   font-family: inherit;
   border-radius: 6px;
   -webkit-appearance: none;
-  color: var(--input-color);
+  color: #0036b2
   border: 1px solid var(--input-border);
   background: var(--input-background);
   transition: border 0.3s ease;
