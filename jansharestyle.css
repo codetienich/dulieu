@@ -37,6 +37,27 @@
   font-family: fontlogo;
   src: url(https://codetienich.github.io/dulieu/LinotypeMinos_janshare2.ttf);
 }
+
+@font-face {
+  font-family: fontlogo1;
+  src: url(https://codetienich.github.io/font/janlogo1.ttf);
+}
+@font-face {
+  font-family: fontlogo2;
+  src: url(https://codetienich.github.io/font/janlogo2.otf);
+}
+@font-face {
+  font-family: fontlogo3;
+  src: url(https://codetienich.github.io/font/janlogo3.ttf);
+}
+@font-face {
+  font-family: fontlogo4;
+  src: url(https://codetienich.github.io/font/janlogo4.ttf);
+}
+@font-face {
+  font-family: fontlogo5;
+  src: url(https://codetienich.github.io/font/janlogo5.otf);
+}
 @font-face {
   font-family: Fontnv;
   src: url(https://codetienich.github.io/dulieu/0051-LNTH-MarkerBrush.ttf);
