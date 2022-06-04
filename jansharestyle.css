@@ -165,6 +165,10 @@
   font-family: fontjan14;
   src: url(https://codetienich.github.io/dulieu/0132-LNTH-Doodles.ttf);
 }
+@font-face {
+  font-family: fontjan15;
+  src: url(https://codetienich.github.io/dulieu/UTM_Facebook.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
