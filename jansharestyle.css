@@ -718,7 +718,7 @@ font-size: 16px;
 .janform-group .janform-field {
   position: relative;
   z-index: 1;
-  flex: 1 1 auto;
+
   width: 1%;
   margin-top: 0;
   margin-bottom: 0;
