@@ -169,6 +169,19 @@
   font-family: fontjan15;
   src: url(https://codetienich.github.io/dulieu/UTM_Facebook.ttf);
 }
+@font-face {
+  font-family: fontjan16;
+  src: url(https://codetienich.github.io/dulieu/0151-LNTH-flower3.ttf);
+}
+@font-face {
+  font-family: fontjan17;
+  src: url(https://codetienich.github.io/dulieu/0156-LNTH-Briarwood.ttf);
+}
+@font-face {
+  font-family: fontjan18;
+  src: url(https://codetienich.github.io/dulieu/0162-LNTH-eglantine.ttf);
+}
+
  .img-container #image{
     display: block;
     max-width: 100%;
