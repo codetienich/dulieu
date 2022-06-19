@@ -181,7 +181,10 @@
   font-family: fontjan18;
   src: url(https://codetienich.github.io/dulieu/0162-LNTH-eglantine.ttf);
 }
-
+@font-face {
+  font-family: fontjan19;
+  src: url(https://codetienich.github.io/dulieu/UTM_Daxline_Medium.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
