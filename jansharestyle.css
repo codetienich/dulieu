@@ -185,6 +185,10 @@
   font-family: fontjan19;
   src: url(https://codetienich.github.io/dulieu/UTM_Daxline_Medium.ttf);
 }
+@font-face {
+  font-family: fontjan20;
+  src: url(https://codetienich.github.io/dulieu/0291-LNTH-Cabron.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
