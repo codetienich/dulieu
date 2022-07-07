@@ -189,6 +189,10 @@
   font-family: fontjan20;
   src: url(https://codetienich.github.io/dulieu/0291-LNTH-Cabron.ttf);
 }
+@font-face {
+  font-family: fontjan21;
+  src: url(https://codetienich.github.io/dulieu/Arial_Rounded_MT_Bold.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
