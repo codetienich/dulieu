@@ -193,6 +193,10 @@
   font-family: fontjan21;
   src: url(https://codetienich.github.io/dulieu/Arial_Rounded_MT_Bold.ttf);
 }
+@font-face {
+  font-family: fontjan22;
+  src: url(https://codetienich.github.io/dulieu/0072-LNTH-Fair-Prosper.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
