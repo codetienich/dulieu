@@ -197,6 +197,10 @@
   font-family: fontjan22;
   src: url(https://codetienich.github.io/dulieu/0072-LNTH-Fair-Prosper.ttf);
 }
+@font-face {
+  font-family: fontjan23;
+  src: url(https://codetienich.github.io/dulieu/iCiel_Altus.otf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
