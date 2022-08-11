@@ -578,7 +578,7 @@ input.jancolor
   padding: 6px 32px;
   text-align: center;
   text-transform: uppercase;
-
+   overflow:hidden;
   z-index: 1;
   cursor: pointer;
   text-decoration:none;
