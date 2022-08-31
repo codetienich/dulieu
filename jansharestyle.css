@@ -201,6 +201,10 @@
   font-family: fontjan23;
   src: url(https://codetienich.github.io/dulieu/iCiel_Altus.otf);
 }
+@font-face {
+  font-family: fontjan24;
+  src: url(https://codetienich.github.io/dulieu/Franklin_Gothic_Medium.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
