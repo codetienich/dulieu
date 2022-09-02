@@ -32,7 +32,7 @@
 			anchor = document.createElement("a"),
 			toString = function(a){return String(a);},
 			myBlob = (self.Blob || self.MozBlob || self.WebKitBlob || toString),
-			fileName = strFileName || "taianh2",
+			fileName = strFileName || "download",
 			blob,
 			reader;
 			myBlob= myBlob.call ? myBlob.bind(self) : Blob ;
@@ -52,7 +52,7 @@
         		ajax.open( "GET", url, true);
         		ajax.responseType = 'blob';
         		ajax.onload= function(e){ 
-				  taianh2(e.target.response, fileName, defaultMime);
+				  download(e.target.response, fileName, defaultMime);
 				};
         		setTimeout(function(){ ajax.send();}, 0); // allows setting custom ajax headers using the return:
 			    return ajax;
@@ -99,7 +99,7 @@
 				anchor.href = url;
 				anchor.setAttribute("download", fileName);
 				anchor.className = "download-js-link";
-				anchor.innerHTML = "Đang tải về...";
+				anchor.innerHTML = "downloading...";
 				anchor.style.display = "none";
 				document.body.appendChild(anchor);
 				setTimeout(function() {
