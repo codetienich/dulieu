@@ -1,31 +1,3 @@
-
-//download.js v4.1, by dandavis; 2008-2015. [CCBY2] see http://danml.com/download.html for tests/usage
-// v1 landed a FF+Chrome compat way of downloading strings to local un-named files, upgraded to use a hidden frame and optional mime
-// v2 added named files via a[download], msSaveBlob, IE (10+) support, and window.URL support for larger+faster saves than dataURLs
-// v3 added dataURL and Blob Input, bind-toggle arity, and legacy dataURL fallback was improved with force-download mime and base64 support. 3.1 improved safari handling.
-// v4 adds AMD/UMD, commonJS, and plain browser support
-// v4.1 adds url download capability via solo URL argument (same domain/CORS only)
-// https://github.com/rndme/download
-
-(function (root, factory) {
-	if (typeof define === 'function' && define.amd) {
-		// AMD. Register as an anonymous module.
-		define([], factory);
-	} else if (typeof exports === 'object') {
-		// Node. Does not work with strict CommonJS, but
-		// only CommonJS-like environments that support module.exports,
-		// like Node.
-		module.exports = factory();
-	} else {
-		// Browser globals//download.js v4.21, by dandavis; 2008-2018. [MIT] see http://danml.com/download.html for tests/usage
-// v1 landed a FF+Chrome compatible way of downloading strings to local un-named files, upgraded to use a hidden frame and optional mime
-// v2 added named files via a[download], msSaveBlob, IE (10+) support, and window.URL support for larger+faster saves than dataURLs
-// v3 added dataURL and Blob Input, bind-toggle arity, and legacy dataURL fallback was improved with force-download mime and base64 support. 3.1 improved safari handling.
-// v4 adds AMD/UMD, commonJS, and plain browser support
-// v4.1 adds url download capability via solo URL argument (same domain/CORS only)
-// v4.2 adds semantic variable names, long (over 2MB) dataURL support, and hidden by default temp anchors
-// https://github.com/rndme/download
-
 (function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		// AMD. Register as an anonymous module.
@@ -37,11 +9,11 @@
 		module.exports = factory();
 	} else {
 		// Browser globals (root is window)
-		root.taianh2 = factory();
+		root.download = factory();
   }
 }(this, function () {
 
-	return function taianh2(data, strFileName, strMimeType) {
+	return function download(data, strFileName, strMimeType) {
 
 		var self = window, // this script is only for browsers anyway...
 			defaultMime = "application/octet-stream", // this default mime also triggers iframe downloads
@@ -80,7 +52,7 @@
 
 
 		//go ahead and download dataURLs right away
-		if(/^data:([\w+-]+\/[\w+.-]+)?[,;]/.test(payload)){
+		if(/^data\:[\w+\-]+\/[\w+\-]+[,;]/.test(payload)){
 		
 			if(payload.length > (1024*1024*1.999) && myBlob !== toString ){
 				payload=dataUrlToBlob(payload);
@@ -91,13 +63,8 @@
 					saver(payload) ; // everyone else can save dataURLs un-processed
 			}
 			
-		}else{//not data url, is it a string with special needs?
-			if(/([\x80-\xff])/.test(payload)){			  
-				var i=0, tempUiArr= new Uint8Array(payload.length), mx=tempUiArr.length;
-				for(i;i<mx;++i) tempUiArr[i]= payload.charCodeAt(i);
-			 	payload=new myBlob([tempUiArr], {type: mimeType});
-			}		  
-		}
+		}//end if dataURL passed?
+
 		blob = payload instanceof myBlob ?
 			payload :
 			new myBlob([payload], {type: mimeType}) ;
@@ -106,8 +73,7 @@
 		function dataUrlToBlob(strUrl) {
 			var parts= strUrl.split(/[:;,]/),
 			type= parts[1],
-			indexDecoder = strUrl.indexOf("charset")>0 ? 3: 2,
-			decoder= parts[indexDecoder] == "base64" ? atob : decodeURIComponent,
+			decoder= parts[2] == "base64" ? atob : decodeURIComponent,
 			binData= decoder( parts.pop() ),
 			mx= binData.length,
 			i= 0,
@@ -120,16 +86,12 @@
 
 		function saver(url, winMode){
 
-			if ('taianh2' in anchor) { //html5 A[download]
+			if ('download' in anchor) { //html5 A[download]
 				anchor.href = url;
-				anchor.setAttribute("taianh2", fileName);
+				anchor.setAttribute("download", fileName);
 				anchor.className = "download-js-link";
 				anchor.innerHTML = "Đang tải về...";
 				anchor.style.display = "none";
- 				anchor.addEventListener('click', function(e) {
- 					e.stopPropagation();
- 					this.removeEventListener('click', arguments.callee);
- 				});
 				document.body.appendChild(anchor);
 				setTimeout(function() {
 					anchor.click();
@@ -141,7 +103,7 @@
 
 			// handle non-a[download] safari as best we can:
 			if(/(Version)\/(\d+)\.(\d+)(?:\.(\d+))?.*Safari\//.test(navigator.userAgent)) {
-				if(/^data:/.test(url))	url="data:"+url.replace(/^data:([\w\/\-\+]+)/, defaultMime);
+				url=url.replace(/^data:([\w\/\-\+]+)/, defaultMime);
 				if(!window.open(url)){ // popup blocked, offer direct download:
 					if(confirm("Displaying New Document\n\nUse Save As... to download, then click back to return to this page.")){ location.href=url; }
 				}
@@ -152,7 +114,7 @@
 			var f = document.createElement("iframe");
 			document.body.appendChild(f);
 
-			if(!winMode && /^data:/.test(url)){ // force a mime that will download:
+			if(!winMode){ // force a mime that will download:
 				url="data:"+url.replace(/^data:([\w\/\-\+]+)/, defaultMime);
 			}
 			f.src=url;
