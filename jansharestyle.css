@@ -205,6 +205,13 @@
   font-family: fontjan24;
   src: url(https://codetienich.github.io/dulieu/Franklin_Gothic_Medium.ttf);
 }
+@font-face {
+  font-family: fontjan25;
+  src: url(https://codetienich.github.io/dulieu/SVN-Fords-Folly.otf);
+}
+
+
+
  .img-container #image{
     display: block;
     max-width: 100%;
