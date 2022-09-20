@@ -1,6 +1,7 @@
 #jansharecanvas {position: absolute; width: 0px;height: 0px;} .disp-none{display:none;}#anhcrop{ height: 38px;border-radius: 4px;}#upload-aphoto{background: #12a37f;border-color:#12a37f;margin: 17px 12px; }
 .button2 {left: 50px;background-color: #a7ffd7;color: black; border: 2px solid #f44336;width: 150px;height: 40px;text-align: center;font-size: 22px;margin: 17px 24px;}.button2:hover {background-color: #f44336;color: white;}
 .button3 {background-color: yellow;color: black; border: 2px solid #f44336;width: 150px;height: 40px;text-align: center;font-size: 22px;}.button3:hover { background-color: #f44336;color: white;}
+.button7 { height: 32px; margin: 10px;line-height: 23px;border-radius: 3px; display: inline-block;background: #179b07;padding-bottom: 1px;background-image: -moz-linear-gradient(100% 100% 90deg, #CC0000, #F80000); text-decoration: none;color: #FFF;font-weight: bold; border-color: #ffd6ea; }
 .thanhtruot {
   -webkit-appearance: none;
   width: 100%;
