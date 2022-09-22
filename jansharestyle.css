@@ -210,8 +210,14 @@
   font-family: fontjan25;
   src: url(https://codetienich.github.io/dulieu/SVN-Fords-Folly.otf);
 }
-
-
+@font-face {
+  font-family: fontjan26;
+  src: url(https://codetienich.github.io/dulieu/0259-LNTH-angrybirds-regular.ttf);
+}
+@font-face {
+  font-family: fontjan27;
+  src: url(https://codetienich.github.io/dulieu/0206-LNTH-Minangkabau_EA_144.ttf);
+}
 
  .img-container #image{
     display: block;
