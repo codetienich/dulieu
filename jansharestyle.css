@@ -218,6 +218,14 @@
   font-family: fontjan27;
   src: url(https://codetienich.github.io/dulieu/0206-LNTH-Minangkabau_EA_144.ttf);
 }
+@font-face {
+  font-family: fontjan28;
+  src: url(https://codetienich.github.io/dulieu/SVN-New-Athletic-M54.ttf);
+}
+@font-face {
+  font-family: fontjan29;
+  src: url(https://codetienich.github.io/dulieu/SVN-Brandon%20Printed%20Shadow.otf);
+}
 
  .img-container #image{
     display: block;
