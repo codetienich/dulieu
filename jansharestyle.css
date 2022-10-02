@@ -226,6 +226,11 @@
   font-family: fontjan29;
   src: url(https://codetienich.github.io/dulieu/SVN-Brandon%20Printed%20Shadow.otf);
 }
+@font-face {
+  font-family: fontjan30;
+  src: url(https://codetienich.github.io/dulieu/0048-LNTH-Fonters.ttf);
+}
+
 
  .img-container #image{
     display: block;
