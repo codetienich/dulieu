@@ -230,6 +230,10 @@
   font-family: fontjan30;
   src: url(https://codetienich.github.io/dulieu/0048-LNTH-Fonters.ttf);
 }
+@font-face {
+  font-family: fontjan31;
+  src: url(https://codetienich.github.io/dulieu/0222-LNTH-Font-ve-tay.ttf);
+}
 
 
  .img-container #image{
