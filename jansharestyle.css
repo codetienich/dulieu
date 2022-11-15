@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 #jansharecanvas {position: absolute; width: 0px;height: 0px;} .disp-none{display:none;}#anhcrop{ height: 38px;border-radius: 4px;}#upload-aphoto{background: #12a37f;border-color:#12a37f;margin: 17px 12px; }
 .button2 {left: 50px;background-color: #a7ffd7;color: black; border: 2px solid #f44336;width: 150px;height: 40px;text-align: center;font-size: 22px;margin: 17px 24px;}.button2:hover {background-color: #f44336;color: white;}
 .button3 {background-color: yellow;color: black; border: 2px solid #f44336;width: 150px;height: 40px;text-align: center;font-size: 22px;}.button3:hover { background-color: #f44336;color: white;}
@@ -871,3 +872,61 @@ body .janform-group:not(:last-child) {
         display: block!important;
         margin-left: auto;
         margin-right: auto; }
+
+
+.buttontaoanh.ttn:before {
+  content: "\2728  Tạo ảnh   \26A1";
+}
+.buttontaoanh{
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    color: #03a9f4;
+    height: 60px;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 3px solid #03a9f4;
+    overflow: hidden;
+    font-weight: bold;
+    outline: none;
+    background-color: transparent;
+    transition:  all ease 0.5s;
+}
+.buttontaoanh:hover{
+    cursor: pointer;
+    background-color:  #00f366;
+	  font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    color: #ffffff;
+}
+.buttonactive{
+    height: 110px;
+    width: 220px;
+ background-image: url("https://lh3.googleusercontent.com/-jMJ7TmPHIdI/Y3OUeyOOBGI/AAAAAAAABds/TPN27rF1KWMpZYjcV1AX1hafR0g7hWPnACNcBGAsYHQ/h120/dangtaoanh4.gif");
+}
+.buttonsuccess{
+        position: relative;
+        background-color: #fff;
+        animation: bounce .3 ease-in;}
+.buttonsuccess:before{
+        content: '';
+        position: absolute;
+        background: url(https://lh3.googleusercontent.com/-_6oA-Q3jdi0/Y3Om38CdCyI/AAAAAAAABd8/rKzR5HJDyPwvtNgjhYOLmcsAWxcCOGsoQCNcBGAsYHQ/h120/hoanthanh.gif) no-repeat;
+        left: 0;
+        top: 10px;
+        right: 0;
+        margin: 0 auto;
+        width:40px;
+        height: 40px;
+        line-height: 31px;
+ }
