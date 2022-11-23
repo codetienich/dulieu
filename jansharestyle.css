@@ -337,7 +337,7 @@
 
   @media only screen and (max-width: 576px){
     .scroller-type {
-     
+        max-height: 200px;
         flex-direction: column;
         flex-wrap: wrap!important;
         align-content: flex-start;
