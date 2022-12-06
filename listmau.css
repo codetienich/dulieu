@@ -26,7 +26,7 @@ ul, ol{
        font: 16px/1.5 sans-serif;
 
     }
-     .li:before{
+     li:before{
         content: counter(myCounter, decimal-leading-zero);
         display: inline-block;
         text-align: center;
@@ -43,7 +43,7 @@ ul, ol{
     }
 
 
-     .li:nth-child(even){
+     li:nth-child(even){
         background-color: #501a78;
     }
 
