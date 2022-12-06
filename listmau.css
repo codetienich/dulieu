@@ -9,43 +9,7 @@
 }
 
 
-ul, ol{
-        /*margin: 0;padding: 0;*/
-        list-style: none;
-    }
-    li {
-
-        background: #469ccf;
-        color: #fff;
-        counter-increment: myCounter;
-        margin: 0 0  5px 0;
-        padding: 13px;
-        position: relative;
-        border-radius:  0em 40px 2em 0em;
-        padding-left: 0.4em;
-       font: 16px/1.5 sans-serif;
-
-    }
-     li:before{
-        content: counter(myCounter, decimal-leading-zero);
-        display: inline-block;
-        text-align: center;
-        font-size: 2em;
-        line-height: 1.3em;
-        background-color:  #48CFAD;
-        padding: 3px;
-        font-weight: bold;
-        position: absolute; 
-        top: 0;
-        left: -40px;
-        border-radius: 15%;
-        font-family: exo;
-    }
-
-
-     li:nth-child(even){
-        background-color: #501a78;
-    }
+table {font-family: sans-serif;font-size:24px;border-collapse: collapse;width: 100%;}th {border: 1px solid #dddddd;text-align: center;padding: 18px;}td {border: 1px solid #dddddd;text-align: left;padding: 8px;}tr:nth-child(2n+1) {background-color: rgb(251 240 245);}tr:nth-child(even) {background-color: #e2fffc;}
 
 
 
