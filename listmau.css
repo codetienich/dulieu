@@ -237,4 +237,62 @@ button {
   }
 }
 
+.inputcss {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+.inputcss input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmarkcss {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #83c3bd;
+  border-radius: 50%;
+}
+
+.inputcss:hover input ~ .checkmarkcss {
+  background-color: #00F328;
+}
+
+
+.inputcss input:checked ~ .checkmarkcss {
+  background-color: #F32000;
+}
+
+
+.checkmarkcss:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.inputcss input:checked ~ .checkmarkcss:after {
+  display: block;
+}
+
+
+.inputcss .checkmarkcss:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
