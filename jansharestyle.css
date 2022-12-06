@@ -256,6 +256,10 @@
   font-family: fontjan31;
   src: url(https://codetienich.github.io/dulieu/0222-LNTH-Font-ve-tay.ttf);
 }
+@font-face {
+  font-family: fontjan32;
+  src: url(https://codetienich.github.io/dulieu/UTM_Androgyne.ttf);
+}
 
 
  .img-container #image{
