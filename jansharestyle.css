@@ -936,16 +936,16 @@ body .janform-group:not(:last-child) {
 	-moz-osx-font-smoothing: grayscale;
     color: #ffffff;
 }
-.buttonactive{
+.button96active{
     height: 110px;
     width: 220px;
  background-image: url("https://lh3.googleusercontent.com/-jMJ7TmPHIdI/Y3OUeyOOBGI/AAAAAAAABds/TPN27rF1KWMpZYjcV1AX1hafR0g7hWPnACNcBGAsYHQ/h120/dangtaoanh4.gif");
 }
-.buttonsuccess{
+.button96success{
         position: relative;
         background-color: #fff;
         animation: bounce .3 ease-in;}
-.buttonsuccess:before{
+.button96success:before{
         content: '';
         position: absolute;
         background: url(https://lh3.googleusercontent.com/-_6oA-Q3jdi0/Y3Om38CdCyI/AAAAAAAABd8/rKzR5HJDyPwvtNgjhYOLmcsAWxcCOGsoQCNcBGAsYHQ/h120/hoanthanh.gif) no-repeat;
@@ -957,5 +957,8 @@ body .janform-group:not(:last-child) {
         height: 40px;
         line-height: 31px;
  }
+
+
+
 
 
