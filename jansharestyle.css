@@ -261,7 +261,10 @@
   font-family: fontjan32;
   src: url(https://codetienich.github.io/dulieu/UTM_Androgyne.ttf);
 }
-
+@font-face {
+  font-family: fontjan33;
+  src: url(https://codetienich.github.io/dulieu/MuseoSansCyrl-500.otf);
+}
 
  .img-container #image{
     display: block;
