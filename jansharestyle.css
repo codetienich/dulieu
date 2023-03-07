@@ -265,6 +265,10 @@
   font-family: fontjan33;
   src: url(https://codetienich.github.io/dulieu/MuseoSansCyrl-500.otf);
 }
+@font-face {
+  font-family: fontjan34;
+  src: url(https://codetienich.github.io/dulieu/UVF_DK_Crayon_Crumble.ttf);
+}
 
  .img-container #image{
     display: block;
