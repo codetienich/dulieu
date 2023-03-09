@@ -269,7 +269,10 @@
   font-family: fontjan34;
   src: url(https://codetienich.github.io/dulieu/UVF_DK_Crayon_Crumble.ttf);
 }
-
+@font-face {
+  font-family: fontjan35;
+  src: url(https://codetienich.github.io/dulieu/Janshare-CloudsOfDespairLSF.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
