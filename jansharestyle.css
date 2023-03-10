@@ -273,6 +273,22 @@
   font-family: fontjan35;
   src: url(https://codetienich.github.io/dulieu/Janshare-CloudsOfDespairLSF.ttf);
 }
+@font-face {
+  font-family: fontjan36;
+  src: url(https://codetienich.github.io/dulieu/SVN-Fords_Folly.otf);
+}
+@font-face {
+  font-family: fontjan37;
+  src: url(https://codetienich.github.io/dulieu/SVN-Moon_Earth.otf);
+}
+@font-face {
+  font-family: fontjan38;
+  src: url(https://codetienich.github.io/dulieu/SVN-Progs.otf);
+}
+@font-face {
+  font-family: fontjan39;
+  src: url(https://codetienich.github.io/dulieu/SVN-Tango.otf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
