@@ -289,6 +289,34 @@
   font-family: fontjan39;
   src: url(https://codetienich.github.io/dulieu/SVN-Tango.otf);
 }
+@font-face {
+  font-family: fontjan40;
+  src: url(https://codetienich.github.io/dulieu/0060-LNTH-La-lune.ttf);
+}
+@font-face {
+  font-family: fontjan41;
+  src: url(https://codetienich.github.io/dulieu/0164-LNTH-Rembank.ttf);
+}
+@font-face {
+  font-family: fontjan42;
+  src: url(https://codetienich.github.io/dulieu/0246-LNTH-typogarden-demo.ttf);
+}
+@font-face {
+  font-family: fontjan43;
+  src: url(https://codetienich.github.io/dulieu/0310-LNTH-Apasih.ttf);
+}
+@font-face {
+  font-family: fontjan44;
+  src: url(https://codetienich.github.io/dulieu/0328-LNTH-BLOBBYCHUG.ttf);
+}
+@font-face {
+  font-family: fontjan45;
+  src: url(https://codetienich.github.io/dulieu/0323-LNTH-bBungaku.ttf);
+}
+@font-face {
+  font-family: fontjan46;
+  src: url(https://codetienich.github.io/dulieu/0327-LNTH-Message-From-Bear.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
