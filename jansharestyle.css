@@ -317,6 +317,22 @@
   font-family: fontjan46;
   src: url(https://codetienich.github.io/dulieu/0327-LNTH-Message-From-Bear.ttf);
 }
+@font-face {
+  font-family: fontjan47;
+  src: url(https://codetienich.github.io/dulieu/Fz-Scripture-1.ttf);
+}
+@font-face {
+  font-family: fontjan48;
+  src: url(https://codetienich.github.io/dulieu/Fz-Authentic-Photograph.ttf);
+}
+@font-face {
+  font-family: fontjan49;
+  src: url(https://codetienich.github.io/dulieu/Fz-Photograph.ttf);
+}
+@font-face {
+  font-family: fontjan50;
+  src: url(https://codetienich.github.io/dulieu/Fz-Presidente.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
