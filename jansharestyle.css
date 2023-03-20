@@ -39,7 +39,7 @@
 .thanhtruot::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 16px;
+  width: 25px;
   height: 10px;
   border-radius: 50%; 
   background: red;
