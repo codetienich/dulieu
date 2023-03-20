@@ -41,7 +41,7 @@
   appearance: none;
   width: 25px;
   height: 10px;
-  border-radius: 50%; 
+  border-radius: 2%; 
   background: red;
   cursor: pointer;
 }
