@@ -313,6 +313,10 @@
   font-family: fontjan50;
   src: url(https://codetienich.github.io/dulieu/Fz-Presidente.ttf);
 }
+@font-face {
+  font-family: fontjan51;
+  src: url(https://codetienich.github.io/dulieu/Linotte-Semi-Bold.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
