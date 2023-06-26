@@ -321,6 +321,10 @@
   font-family: fontjan52;
   src: url(https://codetienich.github.io/dulieu/Linotte-Bold.ttf);
 }
+@font-face {
+  font-family: fontjan53;
+  src: url(https://codetienich.github.io/dulieu/0002-LNTH-Yellowtail.ttf);
+}
 
  .img-container #image{
     display: block;
