@@ -325,6 +325,15 @@
   font-family: fontjan53;
   src: url(https://codetienich.github.io/dulieu/0002-LNTH-Yellowtail.ttf);
 }
+@font-face {
+  font-family: fontjan54;
+  src: url(https://codetienich.github.io/dulieu/0321-LNTH-Katto-PersonalUse.ttf);
+}
+@font-face {
+  font-family: fontjan55;
+  src: url(https://codetienich.github.io/dulieu/0202-LNTH-balonez-fantasia-br.ttf);
+}
+
 
  .img-container #image{
     display: block;
