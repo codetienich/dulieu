@@ -333,7 +333,10 @@
   font-family: fontjan55;
   src: url(https://codetienich.github.io/dulieu/0202-LNTH-balonez-fantasia-br.ttf);
 }
-
+@font-face {
+  font-family: fontjan56;
+  src: url(https://codetienich.github.io/dulieu/Janshare-DK-Cool-Crayons.ttf);
+}
 
  .img-container #image{
     display: block;
