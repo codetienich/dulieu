@@ -911,7 +911,7 @@ font-size: 16px;
 
 
 body .janform-group {
-  max-width: 360px;
+  max-width: 500px;
 }
 body .janform-group:not(:last-child) {
   margin-bottom: 32px;
