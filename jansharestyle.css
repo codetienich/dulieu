@@ -337,6 +337,10 @@
   font-family: fontjan56;
   src: url(https://codetienich.github.io/dulieu/Janshare-DK-Cool-Crayons.ttf);
 }
+@font-face {
+  font-family: fontjan57;
+  src: url(https://codetienich.github.io/dulieu/0229-LNTH-teefont.ttf);
+}
 
  .img-container #image{
     display: block;
