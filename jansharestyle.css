@@ -341,7 +341,10 @@
   font-family: fontjan57;
   src: url(https://codetienich.github.io/dulieu/0229-LNTH-teefont.ttf);
 }
-
+@font-face {
+  font-family: fontjan58;
+  src: url(https://codetienich.github.io/dulieu/DFVN-Oakley-Bold.otf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
