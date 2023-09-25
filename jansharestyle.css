@@ -345,6 +345,14 @@
   font-family: fontjan58;
   src: url(https://codetienich.github.io/dulieu/DFVN-Oakley-Bold.otf);
 }
+@font-face {
+  font-family: fontjan59;
+  src: url(https://codetienich.github.io/dulieu/iCielDreamsUnwound-Regular.ttf);
+}
+@font-face {
+  font-family: fontjan60;
+  src: url(https://codetienich.github.io/dulieu/Tonos-Regular.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
