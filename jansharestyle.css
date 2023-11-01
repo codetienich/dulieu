@@ -353,6 +353,10 @@
   font-family: fontjan60;
   src: url(https://codetienich.github.io/dulieu/Tonos-Regular.ttf);
 }
+@font-face {
+  font-family: fontjan61;
+  src: url(https://codetienich.github.io/dulieu/PaytoneOne-RegularSS.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
