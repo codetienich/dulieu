@@ -996,7 +996,7 @@ body .janform-group:not(:last-child) {
 
 
 .buttontaoanh.ttn:before {
-  content: "\2728  Tạo ảnh   \26A1";
+  content: "\26A1  Tạo ảnh   \26A1";
 }
 .buttontaoanh{
     text-transform: uppercase;
