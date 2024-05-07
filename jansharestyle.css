@@ -357,6 +357,10 @@
   font-family: fontjan61;
   src: url(https://codetienich.github.io/dulieu/PaytoneOne-RegularSS.ttf);
 }
+@font-face {
+  font-family: fontjan62;
+  src: url(https://codetienich.github.io/dulieu/SVN-South-Dakota.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
