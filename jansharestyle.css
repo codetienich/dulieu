@@ -362,6 +362,10 @@
   font-family: fontjan62;
   src: url(https://codetienich.github.io/dulieu/SVN-South-Dakota.ttf);
 }
+@font-face {
+  font-family: fontjan63;
+  src: url(https://codetienich.github.io/dulieu/0123-LNTH-Telegraphem.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
