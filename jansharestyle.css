@@ -366,6 +366,34 @@
   font-family: fontjan63;
   src: url(https://codetienich.github.io/dulieu/0123-LNTH-Telegraphem.ttf);
 }
+@font-face {
+  font-family: fontjan64;
+  src: url(https://codetienich.github.io/dulieu/990044-LNTH-Awesome-South-Korea.ttf);
+}
+@font-face {
+  font-family: fontjan65;
+  src: url(https://codetienich.github.io/dulieu/0016-LNTH-big-noodle-titling.ttf);
+}
+@font-face {
+  font-family: fontjan66;
+  src: url(https://codetienich.github.io/dulieu/0015-LNTH-BELLABOO.ttf);
+}
+@font-face {
+  font-family: fontjan67;
+  src: url(https://codetienich.github.io/dulieu/0083-LNTH-octin-vintage-free.ttf);
+}
+@font-face {
+  font-family: fontjan68;
+  src: url(https://codetienich.github.io/dulieu/0135-LNTH-marquee-moon.ttf);
+}
+@font-face {
+  font-family: fontjan69;
+  src: url(https://codetienich.github.io/dulieu/0144-LNTH-torkrg.ttf);
+}
+@font-face {
+  font-family: fontjan70;
+  src: url(https://codetienich.github.io/dulieu/0257-LNTH-Handy-ModeDemo.ttf);
+}
  .img-container #image{
     display: block;
     max-width: 100%;
