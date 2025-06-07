@@ -1,3 +1,4 @@
+
 /* RESET RULES 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
@@ -15,10 +16,9 @@ table {font-family: sans-serif;font-size:24px;border-collapse: collapse;width: 1
 
 
 .open-modal5 {
-  background: #e52a2a;
+  background: #669392;
   color: #fff;
-  padding: 0.55rem 0.55rem;
-  margin-bottom: 1rem;
+  padding: 0.10rem 0.55rem;
   border-radius: 5px;
 }
 
