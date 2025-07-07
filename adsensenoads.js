@@ -40,7 +40,7 @@ if (!shouldBlockAds && PuSet.adsenseAds.publisherId != '') {
     var adAdsense = document.createElement('script');
     adAdsense.setAttribute('crossorigin', 'anonymous');
     adAdsense.async = true;
-    adAdsense.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6914268720032307';
+    adAdsense.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-' + PuSet.adsenseAds.publisherId;
 
     adAdsense.onload = function() {
       typeof adScript == "function" && adScript();
